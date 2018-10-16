@@ -23,8 +23,11 @@ ALso replace the send_mail and password with your email id and password.
 
 ## Approach
 The code has been written in Python 3.
-For scrapping the data from IMDb website, ####Beautiful Soup, a Python library for pulling data out of HTML and XML files, has been used.
-####IMDbPY, a Python package to retrieve and manage the data of the IMDb movie database about movies, people, characters and companies, has also been used to fetch the url of the series.
+For scrapping the data from IMDb website, 
+#### Beautiful Soup
+a Python library for pulling data out of HTML and XML files, has been used.
+#### IMDbPY
+a Python package to retrieve and manage the data of the IMDb movie database about movies, people, characters and companies, has also been used to fetch the url of the series.
 
 ### Prerequisites
 Python3 and pip must be preinstalled
@@ -32,11 +35,11 @@ MySQL must be preinstalled
 
 The libraries used in the code have to be installed explicitly using pip install ___ in case of Windows and sudo-apt install ___ in case of Ubuntu. 
 the libraries to be installed for this code are:
-pip3 install Beautifulsoup4
-pip3 install PyMySQL
-pip3 install imdbpy  or  pip install git+https://github.com/alberanid/imdbpy
-pip3 install urllib3
-pip3 install request
+pip3 install Beautifulsoup4,
+pip3 install PyMySQL,
+pip3 install imdbpy  or  pip install git+https://github.com/alberanid/imdbpy,
+pip3 install urllib3,
+pip3 install request,
 
 ### Platform required
 Anaconda, free and open source distribution of the Python and R programming languages, can be used to run the python executable file.
